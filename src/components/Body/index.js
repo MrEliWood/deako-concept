@@ -38,14 +38,14 @@ function Body() {
 	}, []);
 
 	const brighter = () => {
-		const newPosition = scrollProgress === 0 ? window.innerHeight * 0.11 : (scrollProgress + 0.1) * window.innerHeight;
+		const newPosition = scrollProgress === 0 ? window.innerHeight * 4 * 0.11 : (scrollProgress + 0.1) * (window.innerHeight * 4);
 
 		window.scrollTo(0, newPosition);
 		handleScroll();
 	};
 
 	const darker = () => {
-		const newPosition = scrollProgress > 0.7 ? window.innerHeight * 0.61 : (scrollProgress - 0.1) * window.innerHeight;
+		const newPosition = scrollProgress > 0.7 ? window.innerHeight * 4 * 0.61 : (scrollProgress - 0.1) * (window.innerHeight * 4);
 
 		window.scrollTo(0, newPosition);
 		handleScroll();
