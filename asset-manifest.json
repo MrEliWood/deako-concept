@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/deako-concept/static/css/main.dbe4dabe.css",
+    "main.js": "/deako-concept/static/js/main.ebcd282f.js",
+    "index.html": "/deako-concept/index.html",
+    "main.dbe4dabe.css.map": "/deako-concept/static/css/main.dbe4dabe.css.map",
+    "main.ebcd282f.js.map": "/deako-concept/static/js/main.ebcd282f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dbe4dabe.css",
+    "static/js/main.ebcd282f.js"
+  ]
+}
