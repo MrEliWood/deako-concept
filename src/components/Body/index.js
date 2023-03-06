@@ -78,6 +78,14 @@ function Body() {
 						<p>I'm buying a D.R. Horton home</p>
 					</div>
 
+					<div className={scrollProgress < 0.1 ? 'scroll-indicator visible' : 'scroll-indicator hidden'}>
+						<div className='scroll-indicator-background' />
+						<p>Scroll</p>
+						<svg className='chevron' viewBox='0 0 24 24' width='12' height='12'>
+							<polyline points='2 7, 12 17, 22 7' />
+						</svg>
+					</div>
+
 					<div className='dimmer'>
 						<div className='lights'>
 							<div className={scrollProgress > 0.7 && 'on'} />

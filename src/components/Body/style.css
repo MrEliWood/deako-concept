@@ -83,6 +83,25 @@
 	text-decoration: underline;
 }
 
+.scroll-indicator {
+	position: absolute;
+	bottom: var(--large);
+	left: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	transition: all 1s ease;
+}
+
+.chevron {
+	position: absolute;
+	stroke: var(--light);
+	transform: translateY(20px);
+	animation: float 1.5s ease-in infinite both;
+}
+
 .dimmer {
 	position: absolute;
 	right: var(--large);

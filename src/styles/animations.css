@@ -22,3 +22,16 @@
 		display: none;
 	}
 }
+@keyframes float {
+	from {
+		transform: translateY(20px);
+	}
+
+	50% {
+		transform: translateY(25px);
+	}
+
+	to {
+		transform: translateY(20px);
+	}
+}
