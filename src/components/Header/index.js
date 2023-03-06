@@ -13,9 +13,9 @@ function Header() {
 			<img className='logo' src='/assets/deako-lighting_light-bg-copy.png' alt='logo' />
 
 			<div className='nav right-nav'>
-				<img className='nav-icon' src='/assets/magnifyingglass@2x.png' alt='cart' />
-				<img className='nav-icon' src='/assets/person@2x.png' alt='cart' />
-				<img className='nav-icon' src='/assets/cart@2x.png' alt='cart' />
+				<img className='nav-icon' src='./assets/magnifyingglass@2x.png' alt='cart' />
+				<img className='nav-icon' src='./assets/person@2x.png' alt='cart' />
+				<img className='nav-icon' src='./assets/cart@2x.png' alt='cart' />
 			</div>
 		</div>
 	);

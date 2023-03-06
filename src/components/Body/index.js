@@ -61,9 +61,9 @@ function Body() {
 		<div className='body'>
 			<div id='sticky-container'>
 				<div className='foreground'>
-					<img className='background' style={styles.background} src='/assets/background.jpg' alt='background' />
+					<img className='background' style={styles.background} src='./assets/background.jpg' alt='background' />
 					<div className='headline'>
-						<img className={0.8 <= scrollProgress || scrollProgress < 0.2 ? 'headline-item visible' : 'headline-item hidden'} src='/assets/deako-lighting_light.png' alt='deako' />
+						<img className={0.8 <= scrollProgress || scrollProgress < 0.2 ? 'headline-item visible' : 'headline-item hidden'} src='./assets/deako-lighting_light.png' alt='deako' />
 						<h1 className={0.2 <= scrollProgress && scrollProgress < 0.4 ? 'headline-item visible' : 'headline-item hidden'}>ambient</h1>
 						<h1 className={0.4 <= scrollProgress && scrollProgress < 0.6 ? 'headline-item visible' : 'headline-item hidden'}>convenient</h1>
 						<h1 className={0.6 <= scrollProgress && scrollProgress < 0.8 ? 'headline-item visible' : 'headline-item hidden'}>safe</h1>
