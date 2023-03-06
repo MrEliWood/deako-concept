@@ -10,7 +10,7 @@ function Header() {
 				<p>Support</p>
 			</div>
 
-			<img className='logo' src='/assets/deako-lighting_light-bg-copy.png' alt='logo' />
+			<img className='logo' src='./assets/deako-lighting_light-bg-copy.png' alt='logo' />
 
 			<div className='nav right-nav'>
 				<img className='nav-icon' src='./assets/magnifyingglass@2x.png' alt='cart' />
