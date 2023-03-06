@@ -1,0 +1,23 @@
+button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: none;
+	color: white;
+	border: solid 2px white;
+	border-radius: var(--medium);
+	width: fit-content;
+	height: fit-content;
+	padding: var(--small) var(--medium);
+}
+
+button:hover {
+	cursor: pointer;
+	background: white;
+	color: black;
+}
+
+a:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
