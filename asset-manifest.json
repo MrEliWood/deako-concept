@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/deako-concept/static/css/main.ecb2d564.css",
+    "main.css": "/deako-concept/static/css/main.4286c21c.css",
     "main.js": "/deako-concept/static/js/main.7ff7201d.js",
     "index.html": "/deako-concept/index.html",
-    "main.ecb2d564.css.map": "/deako-concept/static/css/main.ecb2d564.css.map",
+    "main.4286c21c.css.map": "/deako-concept/static/css/main.4286c21c.css.map",
     "main.7ff7201d.js.map": "/deako-concept/static/js/main.7ff7201d.js.map"
   },
   "entrypoints": [
-    "static/css/main.ecb2d564.css",
+    "static/css/main.4286c21c.css",
     "static/js/main.7ff7201d.js"
   ]
 }
