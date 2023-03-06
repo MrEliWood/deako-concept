@@ -7,7 +7,7 @@ function Body() {
 
 	const handleScroll = () => {
 		const position = document.getElementById('sticky-container').getBoundingClientRect().top;
-		const progress = -(position / window.innerHeight);
+		const progress = -(position / (window.innerHeight * 4));
 
 		setScrollProgress(progress);
 
